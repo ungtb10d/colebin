@@ -1,0 +1,30 @@
+[package]
+authors = ["Ungtb10d <16118736501@blckswan.no>"]
+description = "A graphical tool to be kool."
+homepage = "https://github.com/ungtb10d/colebin"
+license = "MIT/Apache-2.0"
+name = "colebin"
+readme = "README.md"
+repository = "https://github.com/ungtb10d/colebin"
+version = "0.3.0"
+edition = "2021"
+rust-version = "1.56"
+
+[features]
+optimize = ["log/release_max_level_warn"]
+default = ["optimize"]
+
+[dependencies]
+clap = { version = "3.0", features = ["derive"] }
+colorgrad = "0.5"
+egui = "0.14"
+egui_wgpu_backend = "0.13"
+egui_winit_platform = { version = "0.10" }
+env_logger = "0.9"
+log = "0.4"
+pixels = "0.7"
+winit = "0.25"
+winit_input_helper = "0.10"
+anyhow = "1.0"
+humansize = "1.1"
+memmap2 = "0.5.0"
