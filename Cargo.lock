@@ -96,25 +96,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a"
 
 [[package]]
-name = "colebin"
-version = "0.3.0"
-dependencies = [
- "anyhow",
- "clap",
- "colorgrad",
- "egui",
- "egui_wgpu_backend",
- "egui_winit_platform",
- "env_logger",
- "humansize",
- "log",
- "memmap2 0.5.2",
- "pixels",
- "winit",
- "winit_input_helper",
-]
-
-[[package]]
 name = "bit-set"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -262,6 +243,25 @@ checksum = "3538270d33cc669650c4b093848450d380def10c331d38c768e34cac80576e6e"
 dependencies = [
  "termcolor",
  "unicode-width",
+]
+
+[[package]]
+name = "colebin"
+version = "0.3.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "colorgrad",
+ "egui",
+ "egui_wgpu_backend",
+ "egui_winit_platform",
+ "env_logger",
+ "humansize",
+ "log",
+ "memmap2 0.5.2",
+ "pixels",
+ "winit",
+ "winit_input_helper",
 ]
 
 [[package]]
